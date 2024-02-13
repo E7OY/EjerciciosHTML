@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="shortcut icon" href="img/html-5.png" type="image/png">
+    <title>EjercicioHTML</title>
+</head>
+<body>
+    <aside>
+    <nav>
+        <img src="img/Cyberpunk_2077_logo.svg.png" alt="logo cyberpunk" width="300px">
+        <ul>
+            <li><a href="#inicio">&nbsp;Inicio&nbsp;</a></li>
+            <li><a href="#sinopsis">Sinopsis</a></li>
+            <li><a href="#galeria">Galeria&nbsp;</a></li>
+            <li><a href="#datos">&nbsp;Datos&nbsp;&nbsp;</a></li>
+            <li><a href="#criticas">Criticas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    </aside>
+
+    <section class="main">
+    <div class="inicio" id="inicio">
+    <header>
+    <h1>Cyberpunk <sub>2077</sub></h1>
+    </header>
+    <img src="img/Cyberpunk_2077_box_art.jpg" width="200px" alt="imagen portada cyberpunk">
+    <iframe width="420" height="235" src="https://www.youtube.com/embed/8X2kIfS6fb8?si=qHQZCd_Ky9H_pyPR" title="VideoYoutubeTrailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+    <hr />
+
+    <div class="sinopsis" id="sinopsis">
+    <h2>Sinopsis</h2>
+    <p>Cyberpunk 2077 es un videojuego dentro del rol de acción y disparos en primera persona. La historia 
+        sigue la lucha de V, un mercenario de Night  City que lidia con las consecuencias de un atraco 
+        que salió mal y que resulta en un biochip experimental que contiene un engrama de una legendaria estrella de rock.</p>
+    </div>
+    <hr />
+
+    <div class="galeria" id="galeria">
+        <img src="img/imagen1jpg.jpg" alt="imagen cyberpunk 1">
+        <img src="img/imagen2.jpg" alt="imagen cyberpunk 2">
+        <img src="img/imagen5.jpg" alt="imagen cyberpunk 3">
+        <img src="img/imagen6.jpg" alt="imagen cyberpunk 4">
+        <img src="img/imagen4jpeg.jpeg" alt="imagen cyberpunk 5">
+        <img src="img/imagen3.jpg" alt="imagen cyberpunk 6">
+    </div>
+    <hr />
+
+    <div class="datos" id="datos">
+    <h2>Datos técnicos</h2>
+    <ul>
+        <li><b>Plataformas:</b></li>
+            <ul>
+                <li>PlayStation 5 <img src="img/ps5.png" alt="imagen_ps5" width="50px"></li>
+                <li>PlayStation 4 <img src="img/ps4.png" alt="imagen_ps4" width="50px"></li>
+                <li>Xbox One <img src="img/xboxone.png" alt="imagen_xboxone" width="50px"></li>
+                <li>Xbox Series X <img src="img/xboxseriresx.png" alt="imagen_xboxseriesx" width="50px"></li>
+                <li>Microsoft Windows <img src="img/windowds.png" alt="imagen_windows" width="50px"></li>
+                <li>Google Stadia <img src="img/googlestadia.png" alt="imagen_googlestadia" width="50px"></li>
+            </ul>
+        <li><b>Desarrollador:</b> CD Projekt</li>
+        <li><b>Géneros:</b> Acción y disparos</li>
+        <li><b>Fecha de lanzamiento inicial:</b> 10 de diciembre de 2020</li>
+        <li><b>Número de jugadores permitidos:</b> 1</li>
+    </ul>
+    </div>
+    <hr />
+
+    <div class="criticas" id="criticas">
+    <h2>Críticas</h2>
+    <table>
+        <caption>Calificaciones profesionales</caption>
+        <tr><th>Fuente</th><th>Puntuación</th><th>Enlace</th></tr>
+        <tr><td>Vandal</td><td>7.69</td><td><a href="https://vandal.elespanol.com/juegos/pc/cyberpunk-2077/20029#p-13" target="_blank"><img src="img/vandal.png" alt="logo_vandal" width="180px"></a></td></tr> 
+        <tr><td>HobbyConsolas</td><td>98</td><td><a href="https://www.hobbyconsolas.com/reviews/analisis-cyberpunk-2077-mejores-rpg-generacion-767155" target="_blank"><img src="img/HobbyConsolas.png" alt="logo_hobbyconsolas" width="250"></a></td></tr>
+        <tr><td>3DJuegos</td><td>8,9</td><td><a href="https://www.3djuegos.com/juegos/cyberpunk-2077/" target="_blank"><img src="img/3djuegos.png" alt="logo_3djuegos" width="60px"></a></td></tr>
+        <tr><td>Metacritic</td><td>86</td><td><a href="https://www.metacritic.com/game/cyberpunk-2077/" target="_blank"><img src="img/Metacritic_logo.svg.png" alt="logo_metacritic" width="210px"></a></td></tr>
+    </table>
+    </div>
+    <hr />
+
+    <div class="contacto" id="contacto">
+    <form action="">
+        <fieldset>
+            <label for="usuario">Usuario(obligatorio)</label><br />
+            <input type="text" name="usuario" id="usuario" size="20" minlength="3" maxlength="20" required><br /><br />
+
+            <label for="nombre">Nombre(opcional)</label><br />
+            <input type="text" name="nombre" id="nombre" size="35"><br /><br />
+
+            <label for="comentarios">Comentarios(obligatorio)</label><br />
+            <textarea name="comments" id="comentarios" cols="45" rows="10" minlength="10" maxlength="200" required></textarea><br />
+
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+    </div>
+    
+    <footer>
+    <small> &copy;2023. Página realizada por&nbsp;<a href="https://www.linkedin.com/in/eloy-garcia-martinez-189525208/" target="_blank">Eloy García Martínez</a>  (<a href="mailto:e.garcia@liceolapaz.net">e.garcia@liceolapaz.net</a>).</small>
+    </footer>
+</section>
+</body>
+</html>
+

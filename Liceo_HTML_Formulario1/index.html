@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo Formularios 1</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form action="mailto:e.garcia@liceolapaz.net" method="post">
+        <label for="nombre">Nombre</label><br />
+        <input type="text" name="nombre"><br />
+        <label for="apellidos">Apellidos</label><br />
+        <input type="text" name="apellidos" size="45"><br />
+        <label for="contraseña">Contraseña</label><br />
+        <input type="password" name="contraseña" size="25"><br />
+        <label for="DNI">DNI</label><br />
+        <input type="text" name="DNI" placeholder="Ej. 12345678A"><br />
+        <label for="sexo">Sexo</label><br />
+        <input type="radio" name="sexo" value="Hombre">Hombre<br />
+        <input type="radio" name="sexo" value="Mujer">Mujer<br />
+        Incluir foto<input type="file" name="archivo"><br />
+        <input type="checkbox" name="boletin">Subscribirse al boletin de novedades<br />
+        <input type="submit" name="enviar" value="Guardar cambios">
+        <input type="reset" name="borrar" value="Borrar datos">
+    </form>
+</body>
+</html>

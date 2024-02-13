@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario1</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form action="mailto:e.garcia@liceolapaz.net" method="post">
+        <label for="nombre">Nombre</label><br />
+        <input type="text" id="nombre" name="nombre" size="30"><br />
+        <label for="apellidos">Apelllidos</label><br />
+        <input type="text" id="apellidos" size="70"><br />
+        <label for="contrasenha">Contraseña</label><br />
+        <input type="password" id="contrasenha" name="contraseña" minlength="6" maxlength="10" size="10"><br />
+        <label for="dni">DNI</label><br />
+        <input type="text" id="dni" pattern="[0-9]{8}[A-Z]" minlength="9" maxlength="9" placeholder="Debe escribir el DNI en formato 12345678A" name="dni"><br />
+        <label for="sexo">Sexo</label><br />
+        <input type="radio"  name="sexo" value="hombre" checked id="hombre">
+        <label for="hombre">Hombre</label><br />
+        <input type="radio" name="sexo" value="mujer" id="mujer">
+        <label for="mujer">Mujer</label><br />
+        Incluir foto<input type="file" id="foto" multiple><br />
+        <input type="checkbox" id="boletin" name="">
+        <label for="boletin">Subscribirse al boletin de novedades</label><br />
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" name="borar" value="Borrar datos">
+    </form>
+</body>
+</html>

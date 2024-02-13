@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo formularios</title>
+</head>
+<body>
+    <h1>Formulario estructurado</h1>
+    <form action="mailto:e.garcia@liceolapaz.net" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre</label><br />
+            <input type="text" name="nombre"><br />
+            <label for="apellidos">Apellidos</label><br />
+            <input type="text" name="apellidos"><br />
+            <label for="dni">DNI</label><br />
+            <input type="text" name="DNI"><br />
+        </fieldset>
+        <fieldset>
+            <legend>Datos de conexion</legend>
+            <label for="nombreusuario">Nombre usuario</label><br />
+            <input type="text" name="nombreusuario"><br />
+            <label for="contraseña">Contraseña</label><br />
+            <input type="password" name="contrasela"><br />
+            <label for="repetir">Repite la contraseña</label><br />
+            <input type="password" name="contraseña"><br />
+        </fieldset>
+        <input type="submit" name="enviar" value="Enviar datos">
+    </form>
+</body>
+</html>

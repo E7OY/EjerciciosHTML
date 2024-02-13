@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario 5</title>
+</head>
+<body>
+    <h1>Informacion sobre el producto</h1>
+    <form action="mailto:e.garcia@liceolapaz.net" method="post">
+        <fieldset>
+            <legend>Datos basicos</legend>
+            <label for="nombre">Nombre</label><br />
+            <input type="text" name="nombre" size="85" id="nombre"><br />
+            <label for="descripcion">Descripcion</label><br />
+            <textarea name="descripcion" id="descripcion" cols="90" rows="30">
+            </textarea><br />
+            Foto <input type="file" name="foto" value="Seleccionar archivo"><br />
+            <input type="checkbox" name="contador" id="contador">
+            <label for="contador">Añadir contador de visitas</label> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos economicos</legend>
+            <label for="precio">Precio</label>
+            <input type="text" name="precio" id="precio">€
+            <label for="impuestos">Impuestos</label>
+            <select name="impuestos" id="impuestos">
+                <option value="4">4%</option>
+                <option value="7">7%</option>
+                <option value="9">9%</option>
+            </select> <br />
+            <label for="promocion">Promocion</label><br />
+            <input type="radio" name="impuestos" value="Ninguna" id="ninguna">
+            <label for="ninguna">Ninguna </label><br />
+            <input type="radio" name="impuestos" value="Transporte gratis" id="transporte">
+            <label for="transporte">Transporte gratis</label><br />
+            <input type="radio" name="impuestos" value="Descuento 5%" id="descuento">
+            <label for="descuento">Descuento 5%</label>
+        </fieldset>
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+</body>
+</html>
